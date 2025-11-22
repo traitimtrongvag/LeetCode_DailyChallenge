@@ -1,20 +1,25 @@
 // 5. Longest Palindromic Substring
 class Solution {
-    public int[] sortArrayByParityII(int[] nums) {
-        int even = 0;
-        int odd = 1;
-        
-        while (even < nums.length && odd < nums.length) {
-            if (nums[even] % 2 == 0) {
-                even += 2;
-            } else {
-                int temp = nums[even];
-                nums[even] = nums[odd];
-                nums[odd] = temp;
-                odd += 2;
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() < 1) return "";
+        int start = 0, end = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
             }
         }
-        
-        return nums;
+        return s.substring(start, end + 1);
+    }
+    
+    private int expandAroundCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return right - left - 1;
     }
 }
