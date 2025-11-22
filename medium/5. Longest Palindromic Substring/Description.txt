@@ -1,43 +1,30 @@
-============================================================
-📚 LEETCODE PROBLEM 5
-============================================================
+#### Problem 5: Longest Palindromic Substring
+Difficulty: Medium
+Topics: Two Pointers, String, Dynamic Programming
 
-📖 Title: Longest Palindromic Substring
-🟡 Difficulty: Medium
-🏷️ Topics: Two Pointers, String, Dynamic Programming
-
-------------------------------------------------------------
-📝 PROBLEM DESCRIPTION
-------------------------------------------------------------
+#### Problem Description
 Given a string `s`, return *the longest* *palindromic* *substring* in `s`.
 
-
-🎯 **Example:**
+#### Example
 Example 1:: 
 
-   📥 Input: s = "babad"
+Input: s = "babad"
 
+Output: : "bab"
 
-   📤 Output: : "bab"
+#### Explanation
+: "aba" is also a valid answer.
 
-
-   💡 Explanation: : "aba" is also a valid answer.
-
-
-🎯 **Example:**
+#### Example
 Example 2:: 
 
-   📥 Input: s = "cbbd"
+Input: s = "cbbd"
 
+Output: : "bb"
 
-   📤 Output: : "bb"
-
-
-🔒 **Constraints:**
+#### Constraints
 : 
 
- • `1 <= s.length <= 1000`
+ - `1 <= s.length <= 1000`
 
- • `s` consist of only digits and English letters.
-
-============================================================
+ - `s` consist of only digits and English letters.

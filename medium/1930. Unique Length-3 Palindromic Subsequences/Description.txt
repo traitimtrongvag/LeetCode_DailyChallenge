@@ -1,14 +1,8 @@
-============================================================
-📚 LEETCODE PROBLEM 2059
-============================================================
+#### Problem 2059: Unique Length-3 Palindromic Subsequences
+Difficulty: Medium
+Topics: Hash Table, String, Bit Manipulation, Prefix Sum
 
-📖 Title: Unique Length-3 Palindromic Subsequences
-🟡 Difficulty: Medium
-🏷️ Topics: Hash Table, String, Bit Manipulation, Prefix Sum
-
-------------------------------------------------------------
-📝 PROBLEM DESCRIPTION
-------------------------------------------------------------
+#### Problem Description
 Given a string `s`, return *the number of 
 unique palindromes of length three: that are a 
 subsequence: of *`s`.
@@ -22,57 +16,48 @@ palindrome: is a string that reads the same forwards and backwards.
 A 
 subsequence: of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
 
- • For example, `"ace"` is a subsequence of `"abcde"`.
+ - For example, `"ace"` is a subsequence of `"abcde"`.
 
-
-🎯 **Example:**
+#### Example
 Example 1:: 
 
-   📥 Input: s = "aabca"
+Input: s = "aabca"
 
+Output: : 3
 
-   📤 Output: : 3
-
-
-   💡 Explanation: : The 3 palindromic subsequences of length 3 are:
+#### Explanation
+: The 3 palindromic subsequences of length 3 are:
 - "aba" (subsequence of "aabca")
 - "aaa" (subsequence of "aabca")
 - "aca" (subsequence of "aabca")
 
-
-🎯 **Example:**
+#### Example
 Example 2:: 
 
-   📥 Input: s = "adc"
+Input: s = "adc"
 
+Output: : 0
 
-   📤 Output: : 0
+#### Explanation
+: There are no palindromic subsequences of length 3 in "adc".
 
-
-   💡 Explanation: : There are no palindromic subsequences of length 3 in "adc".
-
-
-🎯 **Example:**
+#### Example
 Example 3:: 
 
-   📥 Input: s = "bbcbaba"
+Input: s = "bbcbaba"
 
+Output: : 4
 
-   📤 Output: : 4
-
-
-   💡 Explanation: : The 4 palindromic subsequences of length 3 are:
+#### Explanation
+: The 4 palindromic subsequences of length 3 are:
 - "bbb" (subsequence of "bbcbaba")
 - "bcb" (subsequence of "bbcbaba")
 - "bab" (subsequence of "bbcbaba")
 - "aba" (subsequence of "bbcbaba")
 
-
-🔒 **Constraints:**
+#### Constraints
 : 
 
- • `3 <= s.length <= 10^5`
+ - `3 <= s.length <= 10^5`
 
- • `s` consists of only lowercase English letters.
-
-============================================================
+ - `s` consists of only lowercase English letters.
