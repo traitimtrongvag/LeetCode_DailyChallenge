@@ -1,4 +1,3 @@
-// 2. Add Two Numbers
 impl Solution {
     pub fn add_two_numbers(
         mut l1: Option<Box<ListNode>>,

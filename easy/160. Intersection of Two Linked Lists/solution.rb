@@ -1,4 +1,3 @@
-# 160. Intersection of Two Linked Lists
 def get_intersection_node(head_a, head_b)
     a = head_a
     b = head_b

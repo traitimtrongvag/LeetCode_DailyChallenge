@@ -1,4 +1,3 @@
-// 15. 3Sum
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);

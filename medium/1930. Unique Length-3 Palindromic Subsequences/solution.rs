@@ -1,4 +1,3 @@
-// 1930. Unique Length-3 Palindromic Subsequences
 impl Solution {
     pub fn count_palindromic_subsequence(s: String) -> i32 {
         let bytes = s.as_bytes();

@@ -1,4 +1,3 @@
-// 168. Excel Sheet Column Title
 class Solution {
     public String convertToTitle(int columnNumber) {
         StringBuilder result = new StringBuilder();

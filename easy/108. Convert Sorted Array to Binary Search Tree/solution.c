@@ -1,4 +1,3 @@
-// 108. Convert Sorted Array to Binary Search Tree
 struct TreeNode* build(int* nums, int left, int right) {
     if (left > right) return NULL;
     int mid = left + (right - left) / 2;

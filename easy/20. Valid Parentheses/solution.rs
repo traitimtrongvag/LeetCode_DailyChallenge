@@ -1,4 +1,3 @@
-// 20. Valid Parentheses
 impl Solution {
     pub fn is_valid(s: String) -> bool {
         let mut stack = Vec::new();

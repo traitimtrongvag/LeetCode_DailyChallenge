@@ -1,4 +1,3 @@
-// 222. Count Complete Tree Nodes
 use std::rc::Rc;
 use std::cell::RefCell;
 

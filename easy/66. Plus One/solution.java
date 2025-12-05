@@ -1,4 +1,3 @@
-// 66. Plus one
 class Solution {
     public int[] plusOne(int[] digits) {
         int i = digits.length;

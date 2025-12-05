@@ -1,4 +1,3 @@
-// 96. Unique Binary Search Trees
 int numTrees(int n) {
     int dp[n + 1];
     dp[0] = dp[1] = 1;

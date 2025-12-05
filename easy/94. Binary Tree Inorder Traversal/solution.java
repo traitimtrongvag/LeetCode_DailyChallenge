@@ -1,4 +1,3 @@
-// 94. Binary Tree Inorder Traversal
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();

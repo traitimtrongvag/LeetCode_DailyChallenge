@@ -1,4 +1,3 @@
-// 168. Excel Sheet Column Title
 char* convertToTitle(int columnNumber) {
     char* result = (char*)malloc(8 * sizeof(char));
     int index = 7;

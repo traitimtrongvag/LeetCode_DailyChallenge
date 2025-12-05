@@ -1,4 +1,3 @@
-// 1015. Smallest Integer Divisible by K
 class Solution {
 public:
     int smallestRepunitDivByK(int k) {

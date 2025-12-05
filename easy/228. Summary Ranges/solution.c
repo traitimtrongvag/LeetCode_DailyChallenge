@@ -1,4 +1,3 @@
-// 228. Summary Ranges
 char** summaryRanges(int* nums, int numsSize, int* returnSize) {
     if (numsSize == 0) {
         *returnSize = 0;

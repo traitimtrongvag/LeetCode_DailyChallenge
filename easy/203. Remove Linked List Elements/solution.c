@@ -1,4 +1,3 @@
-// 203. Remove Linked List Elements
 struct ListNode* removeElements(struct ListNode* head, int val) {
     struct ListNode dummy;
     dummy.next = head;

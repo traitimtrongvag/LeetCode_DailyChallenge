@@ -1,4 +1,3 @@
-// 168. Excel Sheet Column Title
 impl Solution {
     pub fn convert_to_title(column_number: i32) -> String {
         let mut result = String::new();

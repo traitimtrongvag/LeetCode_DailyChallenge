@@ -1,4 +1,3 @@
-// 3079. Find the Sum of Encrypted Integers
 impl Solution {
     pub fn sum_of_encrypted_int(nums: Vec<i32>) -> i32 {
         let mut total = 0;

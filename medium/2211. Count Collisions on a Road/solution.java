@@ -1,4 +1,3 @@
-// 2211. Count Collisions on a Road
 class Solution {
     public int countCollisions(String directions) {
         int n = directions.length(), collisions = 0;

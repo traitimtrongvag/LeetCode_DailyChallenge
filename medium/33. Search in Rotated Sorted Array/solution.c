@@ -1,4 +1,3 @@
-// 33. Search in Rotated Sorted Array
 int search(int* nums, int numsSize, int target) {
     int left = 0, right = numsSize - 1;
     while (left <= right) {

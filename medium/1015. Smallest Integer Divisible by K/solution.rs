@@ -1,4 +1,3 @@
-// 1015. Smallest Integer Divisible by K
 impl Solution {
     pub fn smallest_repunit_div_by_k(k: i32) -> i32 {
         if k % 2 == 0 || k % 5 == 0 {

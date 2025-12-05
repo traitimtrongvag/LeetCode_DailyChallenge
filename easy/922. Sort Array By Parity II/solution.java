@@ -1,4 +1,3 @@
-// 922. Sort Array By Parity II
 class Solution {
     public int[] sortArrayByParityII(int[] nums) {
         int even = 0;

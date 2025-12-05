@@ -1,4 +1,3 @@
-// 11. Container With Most Water
 int maxArea(int* height, int heightSize) {
     int left = 0, right = heightSize - 1;
     int maxArea = 0;

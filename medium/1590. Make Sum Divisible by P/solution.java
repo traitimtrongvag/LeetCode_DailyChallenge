@@ -1,4 +1,3 @@
-// 1590. Make Sum Divisible by P
 class Solution {
     public int minSubarray(int[] nums, int p) {
         long total = 0;

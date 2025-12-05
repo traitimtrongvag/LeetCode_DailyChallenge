@@ -1,4 +1,3 @@
-# 222. Count Complete Tree Nodes
 def count_nodes(root)
     return 0 if root.nil?
     

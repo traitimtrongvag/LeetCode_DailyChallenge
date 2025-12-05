@@ -1,4 +1,3 @@
-# 3190. Find Minimum Operations to Make All Elements Divisible by Three
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
         operations = 0

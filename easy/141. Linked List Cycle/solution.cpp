@@ -1,4 +1,3 @@
-// 141. Linked List Cycle
 class Solution {
 public:
     bool hasCycle(ListNode *head) {

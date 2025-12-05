@@ -1,4 +1,3 @@
-// 11. Container With Most Water
 impl Solution {
     pub fn max_area(height: Vec<i32>) -> i32 {
         let mut left = 0;

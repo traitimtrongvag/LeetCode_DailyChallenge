@@ -1,4 +1,3 @@
-// 67. Add Binary
 impl Solution {
     pub fn add_binary(a: String, b: String) -> String {
         let mut result = String::new();

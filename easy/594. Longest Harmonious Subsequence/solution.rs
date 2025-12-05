@@ -1,4 +1,3 @@
-// 594. Longest Harmonious Subsequence
 use std::collections::HashMap;
 
 impl Solution {

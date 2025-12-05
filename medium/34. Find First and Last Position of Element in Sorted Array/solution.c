@@ -1,4 +1,3 @@
-// 34. Find First and Last Position of Element in Sorted Array
 int* searchRange(int* nums, int numsSize, int target, int* returnSize) {
     int* result = (int*)malloc(2 * sizeof(int));
     *returnSize = 2;

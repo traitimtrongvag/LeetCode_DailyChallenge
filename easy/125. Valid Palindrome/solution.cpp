@@ -1,4 +1,3 @@
-// 125. Valid Palindrome
 class Solution {
 public:
     bool isPalindrome(string s) {

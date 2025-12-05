@@ -1,4 +1,3 @@
-// 1018. Binary Prefix Divisible By 5
 class Solution {
 public:
     vector<bool> prefixesDivBy5(vector<int>& nums) {

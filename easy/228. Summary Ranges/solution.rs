@@ -1,4 +1,3 @@
-// 228. Summary Ranges
 impl Solution {
     pub fn summary_ranges(nums: Vec<i32>) -> Vec<String> {
         let mut result = Vec::new();

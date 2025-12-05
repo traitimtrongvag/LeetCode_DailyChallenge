@@ -1,5 +1,3 @@
-// 3625. Count Number of Trapezoids II
-#include <bits/stdc++.h>
 using namespace std;
 
 class Solution {

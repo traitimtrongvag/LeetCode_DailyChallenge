@@ -1,4 +1,3 @@
-// 20. Valid Parentheses
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();

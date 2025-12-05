@@ -1,4 +1,3 @@
-# 15. 3Sum
 class Solution:
     def threeSum(self, nums):
         nums.sort()

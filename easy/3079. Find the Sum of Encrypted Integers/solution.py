@@ -1,4 +1,3 @@
-# 3079. Find the Sum of Encrypted Integers
 class Solution:
     def sumOfEncryptedInt(self, nums: List[int]) -> int:
         def encrypt(num: int) -> int:

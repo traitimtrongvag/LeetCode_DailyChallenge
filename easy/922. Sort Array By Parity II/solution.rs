@@ -1,4 +1,3 @@
-// 922. Sort Array By Parity II
 impl Solution {
     pub fn sort_array_by_parity_ii(mut nums: Vec<i32>) -> Vec<i32> {
         let mut even = 0;

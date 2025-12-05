@@ -1,4 +1,3 @@
-// 4. Median of Two Sorted Arrays
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& a, vector<int>& b) {

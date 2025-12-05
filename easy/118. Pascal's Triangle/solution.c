@@ -1,4 +1,3 @@
-// 118. Pascal's Triangle
 int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
     int** result = (int**)malloc(numRows * sizeof(int*));
     *returnColumnSizes = (int*)malloc(numRows * sizeof(int));

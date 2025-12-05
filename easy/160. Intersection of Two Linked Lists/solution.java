@@ -1,4 +1,3 @@
-// 160. Intersection of Two Linked Lists
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode a = headA;

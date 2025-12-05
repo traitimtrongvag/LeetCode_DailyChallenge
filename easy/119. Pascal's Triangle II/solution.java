@@ -1,4 +1,3 @@
-// 119. Pascal's Triangle II
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> row = new ArrayList<>();

@@ -1,4 +1,3 @@
-// 219. Contains Duplicate II
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Set<Integer> seen = new HashSet<>();

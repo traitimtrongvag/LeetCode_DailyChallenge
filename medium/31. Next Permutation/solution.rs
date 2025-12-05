@@ -1,4 +1,3 @@
-// 31. Next Permutation
 impl Solution {
     pub fn next_permutation(nums: &mut Vec<i32>) {
         let n = nums.len();

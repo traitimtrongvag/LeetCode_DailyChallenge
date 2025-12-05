@@ -1,4 +1,3 @@
-// 3381. Maximum Subarray Sum With Length Divisible by K
 class Solution {
 public:
     long long maxSubarraySum(vector<int>& nums, int k) {

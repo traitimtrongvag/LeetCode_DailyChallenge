@@ -1,4 +1,3 @@
-// 5. Longest Palindromic Substring
 impl Solution {
     pub fn longest_palindrome(s: String) -> String {
         if s.is_empty() {

@@ -1,4 +1,3 @@
-// 20. Valid Parentheses
 class Solution {
 public:
     bool isValid(string s) {

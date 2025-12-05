@@ -1,4 +1,3 @@
-// 2748. Number of Beautiful Pairs
 impl Solution {
     pub fn count_beautiful_pairs(nums: Vec<i32>) -> i32 {
         fn gcd(a: i32, b: i32) -> i32 {

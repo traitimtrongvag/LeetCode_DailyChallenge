@@ -1,4 +1,3 @@
-// 2872. Maximum Number of K-Divisible Components
 long long dfs(int node, int parent, int** graph, int* graphSize, int* values, int k, int* components) {
     long long sum = values[node];
     for (int i = 0; i < graphSize[node]; i++) {

@@ -1,4 +1,3 @@
-// 31. Next Permutation
 void nextPermutation(int* nums, int numsSize) {
     int i = numsSize - 2;
     while (i >= 0 && nums[i] >= nums[i + 1]) i--;

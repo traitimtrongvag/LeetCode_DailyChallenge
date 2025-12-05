@@ -1,4 +1,3 @@
-// 3432. Count Partitions with Even Sum Difference
 impl Solution {
     pub fn count_partitions(nums: Vec<i32>) -> i32 {
         let total: i32 = nums.iter().sum();

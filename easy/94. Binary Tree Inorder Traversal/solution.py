@@ -1,4 +1,3 @@
-# 94. Binary Tree Inorder Traversal
 class Solution:
     def inorderTraversal(self, root):
         res, st = [], []

@@ -1,4 +1,3 @@
-// 53. Maximum Subarray
 class Solution {
     public int maxSubArray(int[] nums) {
         int currentSum = 0;

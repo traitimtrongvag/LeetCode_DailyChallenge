@@ -1,4 +1,3 @@
-// 2435. Paths in Matrix Whose Sum Is Divisible by K
 int numberOfPaths(int** grid, int gridSize, int* gridColSize, int k) {
     int m = gridSize, n = gridColSize[0];
     int mod = 1000000007;

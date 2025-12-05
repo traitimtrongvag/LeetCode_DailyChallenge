@@ -1,4 +1,3 @@
-// 3381. Maximum Subarray Sum With Length Divisible by K
 long long maxSubarraySum(int* nums, int numsSize, int k) {
     int n = numsSize;
     long long* prefix = (long long*)malloc((n + 1) * sizeof(long long));

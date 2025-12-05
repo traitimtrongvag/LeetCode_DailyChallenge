@@ -1,4 +1,3 @@
-// 2435. Paths in Matrix Whose Sum Is Divisible by K
 impl Solution {
     pub fn number_of_paths(grid: Vec<Vec<i32>>, k: i32) -> i32 {
         let m = grid.len();

@@ -1,4 +1,3 @@
-// 2748. Number of Beautiful Pairs
 class Solution {
     public int countBeautifulPairs(int[] nums) {
         int count = 0;

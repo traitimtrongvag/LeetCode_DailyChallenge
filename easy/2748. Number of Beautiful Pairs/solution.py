@@ -1,4 +1,3 @@
-# 2748. Number of Beautiful Pairs
 class Solution:
     def countBeautifulPairs(self, nums: List[int]) -> int:
         def first_digit(num):

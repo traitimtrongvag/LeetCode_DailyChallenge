@@ -1,4 +1,3 @@
-// 169. Majority Element
 class Solution {
     public int majorityElement(int[] nums) {
         int count = 0;

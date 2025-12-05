@@ -1,4 +1,3 @@
-// 3079. Find the Sum of Encrypted Integers
 class Solution {
 public:
     int sumOfEncryptedInt(vector<int>& nums) {

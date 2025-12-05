@@ -1,4 +1,3 @@
-// 217. Contains Duplicate
 impl Solution {
     pub fn contains_duplicate(mut nums: Vec<i32>) -> bool {
         nums.sort();

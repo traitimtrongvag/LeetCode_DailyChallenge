@@ -1,4 +1,3 @@
-// 3432. Count Partitions with Even Sum Difference
 class Solution {
     public int countPartitions(int[] nums) {
         int total = 0;

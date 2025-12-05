@@ -1,4 +1,3 @@
-// 83. Remove Duplicates from Sorted List
 type ListPtr = Box<ListNode>;
 type ListOpt = Option<ListPtr>;
 

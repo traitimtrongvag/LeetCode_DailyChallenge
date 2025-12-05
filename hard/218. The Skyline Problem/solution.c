@@ -1,4 +1,3 @@
-// 218. The Skyline Problem
 typedef struct {
     int x;
     int h;

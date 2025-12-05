@@ -1,4 +1,3 @@
-// 3044. Most Frequent Prime
 use std::collections::HashMap;
 
 impl Solution {

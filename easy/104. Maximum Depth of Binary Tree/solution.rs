@@ -1,4 +1,3 @@
-// 104. Maximum Depth of Binary Tree
 use std::rc::Rc;
 use std::cell::RefCell;
 

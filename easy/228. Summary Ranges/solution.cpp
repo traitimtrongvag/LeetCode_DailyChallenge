@@ -1,4 +1,3 @@
-// 228. Summary Ranges
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {

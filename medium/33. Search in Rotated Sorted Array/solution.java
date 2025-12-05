@@ -1,4 +1,3 @@
-// 33. Search in Rotated Sorted Array
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;

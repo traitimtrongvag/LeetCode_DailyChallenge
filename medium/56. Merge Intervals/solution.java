@@ -1,4 +1,3 @@
-// 56. Merge Intervals
 class Solution {
     public int[][] merge(int[][] intervals) {
         if (intervals.length == 0) return new int[0][];

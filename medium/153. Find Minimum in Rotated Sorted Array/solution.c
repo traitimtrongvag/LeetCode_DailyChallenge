@@ -1,4 +1,3 @@
-// 153. Find Minimum in Rotated Sorted Array
 int findMin(int* nums, int numsSize) {
     int left = 0, right = numsSize - 1;
     while (left < right) {

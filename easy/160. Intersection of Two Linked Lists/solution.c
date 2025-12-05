@@ -1,4 +1,3 @@
-// 160. Intersection of Two Linked Lists
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
     struct ListNode *a = headA;
     struct ListNode *b = headB;

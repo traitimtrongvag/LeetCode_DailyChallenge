@@ -1,4 +1,3 @@
-// 2094. Finding 3-Digit Even Numbers
 class Solution {
 public:
     vector<int> findEvenNumbers(vector<int>& digits) {

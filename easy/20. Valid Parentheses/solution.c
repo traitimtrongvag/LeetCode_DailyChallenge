@@ -1,4 +1,3 @@
-// 20. Valid Parentheses
 bool isValid(char* s) {
     char stack[10000];
     int top = -1;

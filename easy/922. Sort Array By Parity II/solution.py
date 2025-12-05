@@ -1,4 +1,3 @@
-# 922. Sort Array By Parity II
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
         even = 0

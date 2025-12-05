@@ -1,4 +1,3 @@
-// 69. Sqrt(x)
 impl Solution {
     pub fn my_sqrt(x: i32) -> i32 {
         if x == 0 {

@@ -1,4 +1,3 @@
-// 153. Find Minimum in Rotated Sorted Array
 class Solution {
     public int findMin(int[] nums) {
         int left = 0, right = nums.length - 1;

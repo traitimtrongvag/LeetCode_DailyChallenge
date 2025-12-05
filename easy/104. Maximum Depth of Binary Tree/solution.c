@@ -1,4 +1,3 @@
-// 104. Maximum Depth of Binary Tree
 int maxDepth(struct TreeNode* root) {
     if (!root) return 0;
     int left = maxDepth(root->left);

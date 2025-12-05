@@ -1,4 +1,3 @@
-// 3629. Minimum Jumps to Reach End via Prime Teleportation
 use std::collections::{VecDeque, HashMap};
 
 impl Solution {

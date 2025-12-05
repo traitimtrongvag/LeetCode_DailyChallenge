@@ -1,4 +1,3 @@
-// 96. Unique Binary Search Trees
 class Solution {
 public:
     int numTrees(int n) {

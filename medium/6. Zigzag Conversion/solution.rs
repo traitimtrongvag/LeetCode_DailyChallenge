@@ -1,4 +1,3 @@
-// 6. Zigzag Conversion
 impl Solution {
     pub fn convert(s: String, num_rows: i32) -> String {
         if num_rows == 1 {

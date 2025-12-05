@@ -1,4 +1,3 @@
-// 218. The Skyline Problem
 use std::collections::BTreeMap;
 
 impl Solution {

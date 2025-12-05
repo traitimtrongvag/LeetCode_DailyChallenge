@@ -1,4 +1,3 @@
-// 56. Merge Intervals
 impl Solution {
     pub fn merge(intervals: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         if intervals.is_empty() {

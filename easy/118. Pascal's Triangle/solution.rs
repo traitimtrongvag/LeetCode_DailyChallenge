@@ -1,4 +1,3 @@
-// 118. Pascal's Triangle
 impl Solution {
     pub fn generate(num_rows: i32) -> Vec<Vec<i32>> {
         let num_rows = num_rows as usize;

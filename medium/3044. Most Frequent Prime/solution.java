@@ -1,4 +1,3 @@
-// 3044. Most Frequent Prime
 class Solution {
     private boolean isPrime(int num) {
         if (num <= 1) return false;

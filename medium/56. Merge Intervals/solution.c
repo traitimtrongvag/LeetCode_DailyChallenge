@@ -1,4 +1,3 @@
-// 56. Merge Intervals
 int cmp(const void* a, const void* b) {
     int* arr1 = *(int**)a;
     int* arr2 = *(int**)b;

@@ -1,4 +1,3 @@
-// 2141. Maximum Running Time of N Computers
 class Solution {
 public:
     long long maxRunTime(int n, vector<int>& batteries) {

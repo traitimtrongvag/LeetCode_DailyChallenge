@@ -1,4 +1,3 @@
-// 67. Add Binary
 char* addBinary(char* a, char* b) {
     int lenA = strlen(a);
     int lenB = strlen(b);

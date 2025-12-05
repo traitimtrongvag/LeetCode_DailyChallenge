@@ -1,4 +1,3 @@
-// 3623. Count Number of Trapezoids I
 class Solution {
 public:
     static const long long MOD = 1000000007;

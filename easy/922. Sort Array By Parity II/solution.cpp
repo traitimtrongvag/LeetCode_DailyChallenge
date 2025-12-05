@@ -1,4 +1,3 @@
-// 922. Sort Array By Parity II
 class Solution {
 public:
     vector<int> sortArrayByParityII(vector<int>& nums) {

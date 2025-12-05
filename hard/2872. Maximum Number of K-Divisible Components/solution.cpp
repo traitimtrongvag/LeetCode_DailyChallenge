@@ -1,4 +1,3 @@
-// 2872. Maximum Number of K-Divisible Components
 class Solution {
 public:
     int maxKDivisibleComponents(int n, vector<vector<int>>& edges, vector<int>& values, int k) {

@@ -1,4 +1,3 @@
-// 2872. Maximum Number of K-Divisible Components
 class Solution {
     private int components = 0;
     

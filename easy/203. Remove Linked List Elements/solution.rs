@@ -1,4 +1,3 @@
-// 203. Remove Linked List Elements
 impl Solution {
     pub fn remove_elements(head: Option<Box<ListNode>>, val: i32) -> Option<Box<ListNode>> {
         let mut dummy = Box::new(ListNode { val: 0, next: head });

@@ -1,4 +1,3 @@
-// 1930. Unique Length-3 Palindromic Subsequences
 class Solution {
     public int countPalindromicSubsequence(String s) {
         int n = s.length();

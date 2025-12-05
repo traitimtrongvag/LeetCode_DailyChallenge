@@ -1,4 +1,3 @@
-// 18. 4Sum
 impl Solution {
     pub fn four_sum(mut nums: Vec<i32>, target: i32) -> Vec<Vec<i32>> {
         let mut result = Vec::new();

@@ -1,4 +1,3 @@
-// 218. The Skyline Problem
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<int[]> points = new ArrayList<>();

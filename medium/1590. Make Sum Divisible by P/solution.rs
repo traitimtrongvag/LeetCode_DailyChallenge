@@ -1,4 +1,3 @@
-// 1590. Make Sum Divisible by P
 use std::collections::HashMap;
 
 impl Solution {

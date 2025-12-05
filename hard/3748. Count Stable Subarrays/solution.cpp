@@ -1,5 +1,3 @@
-// 3748. Count Stable Subarrays
-#include <vector>
 #include <algorithm>
 using namespace std;
 

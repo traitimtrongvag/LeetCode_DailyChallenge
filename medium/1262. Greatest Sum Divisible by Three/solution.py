@@ -1,4 +1,3 @@
-# 1262. Greatest Sum Divisible by Three
 class Solution:
     def maxSumDivThree(self, nums: List[int]) -> int:
         dp = [0, -10**9, -10**9]

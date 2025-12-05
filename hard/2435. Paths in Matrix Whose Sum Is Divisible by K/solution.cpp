@@ -1,4 +1,3 @@
-// 2435. Paths in Matrix Whose Sum Is Divisible by K
 class Solution {
 public:
     int numberOfPaths(vector<vector<int>>& grid, int k) {

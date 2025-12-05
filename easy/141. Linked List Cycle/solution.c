@@ -1,4 +1,3 @@
-// 141. Linked List Cycle
 bool hasCycle(struct ListNode *head) {
     struct ListNode *slow = head;
     struct ListNode *fast = head;

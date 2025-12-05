@@ -1,4 +1,3 @@
-// 1262. Greatest Sum Divisible by Three
 impl Solution {
     pub fn max_sum_div_three(nums: Vec<i32>) -> i32 {
         let mut dp = vec![0, i32::MIN, i32::MIN];

@@ -1,4 +1,3 @@
-// 118. Pascal's Triangle
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();

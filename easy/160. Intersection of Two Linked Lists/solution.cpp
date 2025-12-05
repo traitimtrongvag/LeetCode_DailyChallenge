@@ -1,4 +1,3 @@
-// 160. Intersection of Two Linked Lists
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {

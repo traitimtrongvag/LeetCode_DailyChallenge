@@ -1,4 +1,3 @@
-// 1018. Binary Prefix Divisible By 5
 class Solution {
     public List<Boolean> prefixesDivBy5(int[] nums) {
         List<Boolean> result = new ArrayList<>();

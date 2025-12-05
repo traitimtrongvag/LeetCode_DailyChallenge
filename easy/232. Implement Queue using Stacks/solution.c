@@ -1,4 +1,3 @@
-// 232. Implement Queue using Stacks
 typedef struct {
     int* stack;
     int top;

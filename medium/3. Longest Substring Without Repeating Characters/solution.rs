@@ -1,4 +1,3 @@
-// 3. Longest Substring Without Repeating Characters
 use std::collections::HashMap;
 use std::cmp::max;
 

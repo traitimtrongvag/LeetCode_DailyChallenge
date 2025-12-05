@@ -1,4 +1,3 @@
-// 218. The Skyline Problem
 class Solution {
 public:
     vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {

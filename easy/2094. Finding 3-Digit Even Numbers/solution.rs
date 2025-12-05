@@ -1,4 +1,3 @@
-// 2094. Finding 3-Digit Even Numbers
 impl Solution {
     pub fn find_even_numbers(digits: Vec<i32>) -> Vec<i32> {
         let mut count = vec![0; 10];

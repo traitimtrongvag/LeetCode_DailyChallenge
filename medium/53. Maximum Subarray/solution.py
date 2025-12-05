@@ -1,4 +1,3 @@
-# 53. Maximum Subarray
 class Solution:
     def maxSubArray(self, nums):
         current_sum = 0

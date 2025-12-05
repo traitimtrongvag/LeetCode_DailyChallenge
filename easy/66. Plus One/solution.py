@@ -1,4 +1,3 @@
-# 66. Plus one
 class Solution:
     def plusOne(self, digits: list[int]) -> list[int]:
         i = len(digits)

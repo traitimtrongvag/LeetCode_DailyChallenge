@@ -1,4 +1,3 @@
-// 23. Merge k Sorted Lists
 use std::cmp::Reverse;
 use std::collections::BinaryHeap;
 

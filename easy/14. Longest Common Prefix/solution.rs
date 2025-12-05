@@ -1,4 +1,3 @@
-// 14. Longest Common Prefix
 impl Solution {
     pub fn longest_common_prefix(strs: Vec<String>) -> String {
         if strs.is_empty() {

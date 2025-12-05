@@ -1,4 +1,3 @@
-// 119. Pascal's Triangle II
 int* getRow(int rowIndex, int* returnSize) {
     *returnSize = rowIndex + 1;
     int* row = (int*)malloc((rowIndex + 1) * sizeof(int));

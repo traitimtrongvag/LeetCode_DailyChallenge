@@ -1,4 +1,3 @@
-// 222. Count Complete Tree Nodes
 int countNodes(struct TreeNode* root) {
     if (!root) return 0;
     int leftHeight = 0, rightHeight = 0;

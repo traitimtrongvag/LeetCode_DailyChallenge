@@ -1,5 +1,3 @@
-// 5. Longest Palindromic Substring
-#include <string>
 using namespace std;
 
 class Solution {

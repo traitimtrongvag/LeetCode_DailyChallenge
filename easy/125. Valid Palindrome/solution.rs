@@ -1,4 +1,3 @@
-// 125. Valid Palindrome
 impl Solution {
     pub fn is_palindrome(s: String) -> bool {
         let filtered: Vec<char> = s

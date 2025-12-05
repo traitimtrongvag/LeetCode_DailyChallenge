@@ -1,4 +1,3 @@
-// 594. Longest Harmonious Subsequence
 class Solution {
 public:
     int findLHS(vector<int>& nums) {

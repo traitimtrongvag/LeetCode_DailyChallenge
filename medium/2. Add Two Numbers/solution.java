@@ -1,4 +1,3 @@
-// 2. Add Two Numbers
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0), current = dummy;

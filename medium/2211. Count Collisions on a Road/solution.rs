@@ -1,4 +1,3 @@
-// 2211. Count Collisions on a Road
 impl Solution {
     pub fn count_collisions(directions: String) -> i32 {
         let chars: Vec<char> = directions.chars().collect();

@@ -1,4 +1,3 @@
-// 232. Implement Queue using Stacks
 struct MyQueue {
     input: Vec<i32>,
     output: Vec<i32>,

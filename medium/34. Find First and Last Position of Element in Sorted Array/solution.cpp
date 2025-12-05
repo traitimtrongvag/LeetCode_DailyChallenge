@@ -1,4 +1,3 @@
-// 34. Find First and Last Position of Element in Sorted Array
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {

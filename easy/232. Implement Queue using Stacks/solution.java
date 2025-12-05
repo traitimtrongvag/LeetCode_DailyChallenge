@@ -1,4 +1,3 @@
-// 232. Implement Queue using Stacks
 class MyQueue {
     private Stack<Integer> input;
     private Stack<Integer> output;
