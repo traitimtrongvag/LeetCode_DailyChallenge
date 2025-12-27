@@ -1,5 +1,4 @@
-import java.util.*;
-
+// idea: https://youtu.be/YacKxgYqJ6o?si=2QhBLY7hSpwD5869
 class Solution {
     public int mostBooked(int n, int[][] meetings) {
         PriorityQueue<Integer> avai_rooms = new PriorityQueue<>();
