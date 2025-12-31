@@ -1,3 +1,4 @@
+// idea: https://youtu.be/Ws9lQ14GeN8?si=dQv-9FMhrYGFpHJZ
 class Solution {
     int[][] dir = {{1,0},{0,1},{-1,0},{0,-1}};
     public boolean check(int x, int y, int n, int m ) {
