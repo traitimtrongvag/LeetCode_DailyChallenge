@@ -1,3 +1,4 @@
+// idea: https://youtu.be/ATDFgexG6jE?si=o8mlxHU20dA3oT05
 class Solution {
     public int maxDotProduct(int[] nums1, int[] nums2) {
         int m = nums1.length;
