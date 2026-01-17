@@ -1,0 +1,37 @@
+# Problem 2576: Minimum Penalty for a Shop
+
+**Difficulty:** Medium  
+**Topics:** String, Prefix Sum
+
+---
+
+## Problem Description
+
+You are given the customer visit log of a shop represented by a 
+0-indexed string `customers` consisting only of characters `'N'` and `'Y'`
+ - if the `i^th` character is `'Y'`, it means that customers come at the `i^th` hour
+
+ - whereas `'N'` indicates that no customers come at the `i^th` hour.
+
+If the shop closes at the `j^th` hour (`0 
+
+### Example
+Example 2
+**Input:** customers = "NNNNN"
+
+**Output:** 0
+
+**Explanation:** It is best to close the shop at the 0^th hour as no customers arrive.
+
+### Example
+Example 3
+**Input:** customers = "YYYY"
+
+**Output:** 4
+
+**Explanation:** It is best to close the shop at the 4^th hour as customers arrive at each hour.
+
+### Constraints
+- `1 <= customers.length <= 10^5`
+
+ - `customers` consists only of characters `'Y'` and `'N'`.
