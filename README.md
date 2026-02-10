@@ -44,7 +44,6 @@ The problems are categorized into three difficulty levels:
 ├── easy/           # Easy difficulty problems
 ├── medium/         # Medium difficulty problems
 └── hard/           # Hard difficulty problems
-
 ```
 
 Each problem directory contains:
