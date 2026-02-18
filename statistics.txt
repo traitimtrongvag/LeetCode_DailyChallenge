@@ -1,58 +1,58 @@
 ============================================================
 
-Array                     129 solution   █████████████████████████   74.14 %
-Hash Table                 41 solution   ███████░░░░░░░░░░░░░░░░░░   23.56 %
-Sorting                    38 solution   ███████░░░░░░░░░░░░░░░░░░   21.84 %
-Math                       32 solution   ██████░░░░░░░░░░░░░░░░░░░   18.39 %
-String                     26 solution   █████░░░░░░░░░░░░░░░░░░░░   14.94 %
-Dynamic Programming        26 solution   █████░░░░░░░░░░░░░░░░░░░░   14.94 %
-Two Pointers               22 solution   ████░░░░░░░░░░░░░░░░░░░░░   12.64 %
-Binary Search              21 solution   ████░░░░░░░░░░░░░░░░░░░░░   12.07 %
-Depth-First Search         14 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   08.05 %
-Matrix                     14 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   08.05 %
-Tree                       13 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   07.47 %
-Prefix Sum                 13 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   07.47 %
-Greedy                     13 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   07.47 %
-Binary Tree                11 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   06.32 %
-Sliding Window             11 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   06.32 %
-Bit Manipulation           10 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   05.75 %
-Simulation                 10 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   05.75 %
-Breadth-First Search        9 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   05.17 %
-Heap (Priority Queue)       9 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   05.17 %
-Stack                       8 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 %
-Linked List                 8 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 %
-Divide and Conquer          8 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 %
-Counting                    7 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.02 %
-Geometry                    6 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 %
-Enumeration                 5 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   02.87 %
-Graph Theory                5 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   02.87 %
-Number Theory               3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Recursion                   3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Design                      3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Queue                       3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Binary Search Tree          3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Ordered Set                 3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Union-Find                  3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Shortest Path               3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Segment Tree                3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.72 %
-Trie                        2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.15 %
-Monotonic Queue             2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.15 %
-Monotonic Stack             2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.15 %
-Doubly-Linked List          2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.15 %
-Backtracking                2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.15 %
-Sweep Line                  2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.15 %
-String Matching             1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Memoization                 1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Counting Sort               1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Data Stream                 1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Database                    1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Bucket Sort                 1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Radix Sort                  1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Brainteaser                 1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Combinatorics               1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Merge Sort                  1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
-Binary Indexed Tree         1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 %
+Array                     133 solution   █████████████████████████   72.28 %
+Hash Table                 44 solution   ████████░░░░░░░░░░░░░░░░░   23.91 %
+Sorting                    39 solution   ███████░░░░░░░░░░░░░░░░░░   21.20 %
+Math                       33 solution   ██████░░░░░░░░░░░░░░░░░░░   17.93 %
+String                     28 solution   █████░░░░░░░░░░░░░░░░░░░░   15.22 %
+Dynamic Programming        27 solution   █████░░░░░░░░░░░░░░░░░░░░   14.67 %
+Two Pointers               22 solution   ████░░░░░░░░░░░░░░░░░░░░░   11.96 %
+Binary Search              21 solution   ███░░░░░░░░░░░░░░░░░░░░░░   11.41 %
+Greedy                     15 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   08.15 %
+Prefix Sum                 15 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   08.15 %
+Depth-First Search         14 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   07.61 %
+Matrix                     14 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   07.61 %
+Tree                       13 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   07.07 %
+Bit Manipulation           13 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   07.07 %
+Binary Tree                11 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   05.98 %
+Sliding Window             11 solution   ██░░░░░░░░░░░░░░░░░░░░░░░   05.98 %
+Divide and Conquer         10 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   05.43 %
+Simulation                 10 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   05.43 %
+Breadth-First Search        9 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.89 %
+Heap (Priority Queue)       9 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.89 %
+Counting                    8 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 %
+Linked List                 8 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 %
+Stack                       8 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 %
+Geometry                    6 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   03.26 %
+Enumeration                 6 solution   █░░░░░░░░░░░░░░░░░░░░░░░░   03.26 %
+Graph Theory                5 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   02.72 %
+Segment Tree                4 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   02.17 %
+Binary Search Tree          3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Design                      3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Recursion                   3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Queue                       3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Number Theory               3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Ordered Set                 3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Backtracking                3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Union-Find                  3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Shortest Path               3 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Counting Sort               2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.09 %
+Trie                        2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.09 %
+Doubly-Linked List          2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.09 %
+Monotonic Queue             2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.09 %
+Monotonic Stack             2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.09 %
+Sweep Line                  2 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   01.09 %
+Data Stream                 1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Database                    1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+String Matching             1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Memoization                 1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Binary Indexed Tree         1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Merge Sort                  1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Bucket Sort                 1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Radix Sort                  1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Brainteaser                 1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+Combinatorics               1 solution   ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
 
-Total solutions: 174
+Total solutions: 184
 Unique topics: 52
 ============================================================
