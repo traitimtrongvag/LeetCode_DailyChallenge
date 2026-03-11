@@ -2,7 +2,7 @@
 
 # LeetCode DailyChallenge
 
-Welcome to this comprehensive collection of LeetCode problem solutions and algorithm study resources. This repository is designed to help you master data structures and algorithms through practical problem-solving, with solutions implemented in multiple programming languages including Java, C++, Python, and Rust.
+Welcome to this repository. This repository contains my LeetCode solutions and can also serve as a reference for learning Data Structures and Algorithms (DSA).
 
 ## Table of Contents
 
