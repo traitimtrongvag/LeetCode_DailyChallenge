@@ -2,11 +2,11 @@ use std::collections::HashMap;
 
 impl Solution {
     pub fn count_trapezoids(points: Vec<Vec<i32>>) -> i32 {
-        let mut t: HashMap<i32, HashMap<i32, i32>> = HashMap::new();
-        let mut v: HashMap<i32, HashMap<i32, i32>> = HashMap::new();
+        let mut t: HashMap<(i32, i32), HashMap<i32, i32>> = HashMap::new();
+        let mut v: HashMap<(i32, i32), HashMap<i32, i32>> = HashMap::new();
         let n = points.len();
 
-        fn add(map: &mut HashMap<i32, HashMap<i32, i32>>, key: i32, des: i32) {
+        fn add(map: &mut HashMap<(i32, i32), HashMap<i32, i32>>, key: (i32, i32), des: i32) {
             let inner = map.entry(key).or_insert_with(HashMap::new);
             *inner.entry(des).or_insert(0) += 1;
         }
@@ -32,15 +32,12 @@ impl Solution {
 
                 let des = sx * y1 - sy * x1;
 
-                let key1 = (sx << 12) | (sy + 2000);
-                let key2 = (dx << 12) | (dy + 2000);
-
-                add(&mut t, key1, des);
-                add(&mut v, key2, des);
+                add(&mut t, (sx, sy), des);
+                add(&mut v, (dx, dy), des);
             }
         }
 
-        count(&t) - count(&v)/2
+        count(&t) - count(&v) / 2
     }
 }
 
@@ -55,7 +52,7 @@ fn gcd(mut a: i32, mut b: i32) -> i32 {
     a
 }
 
-fn count(mp: &HashMap<i32, HashMap<i32, i32>>) -> i32 {
+fn count(mp: &HashMap<(i32, i32), HashMap<i32, i32>>) -> i32 {
     let mut ans: i64 = 0;
 
     for inner in mp.values() {
