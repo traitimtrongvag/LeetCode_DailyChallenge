@@ -2,7 +2,7 @@ impl Solution {
     pub fn sum_of_encrypted_int(nums: Vec<i32>) -> i32 {
         let mut total = 0;
         
-        for &num in nums.iter() {
+        for &num in &nums {
             total += Self::encrypt(num);
         }
         
