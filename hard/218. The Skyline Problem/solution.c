@@ -21,14 +21,16 @@ int** getSkyline(int** buildings, int buildingsSize, int* buildingsColSize, int*
     }
     qsort(points, 2 * buildingsSize, sizeof(Point), cmp);
     
-    int* heights = malloc(40000 * sizeof(int));
-    int heapSize = 0;
-    heights[heapSize++] = 0;
-    
+    /* result rows and *returnColumnSizes are caller-owned; caller must free each. */
     int** result = malloc(2 * buildingsSize * sizeof(int*));
     *returnColumnSizes = malloc(2 * buildingsSize * sizeof(int));
     *returnSize = 0;
     int prev = 0;
+
+    /* max distinct heights = one sentinel 0 + all building edges */
+    int* heights = malloc((2 * buildingsSize + 1) * sizeof(int));
+    int heapSize = 0;
+    heights[heapSize++] = 0;
     
     for (int i = 0; i < 2 * buildingsSize; i++) {
         int x = points[i].x, h = points[i].h;
