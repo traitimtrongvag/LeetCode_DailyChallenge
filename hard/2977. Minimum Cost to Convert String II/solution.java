@@ -46,6 +46,7 @@ class Solution {
 
             if (source.charAt(i) == target.charAt(i)) {
                 dp[i + 1] = Math.min(dp[i + 1], dp[i]);
+                continue;
             }
 
             for (int len : lens) {
