@@ -23,23 +23,19 @@ impl Solution {
         let mut max_diff = 0;
 
         fn dfs(max_diff: &mut i32, root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
-            if root.is_none() {
-                // return height
-                return -1;
+            if let Some(node) = root {
+                let left = node.borrow().left.clone();
+                let right = node.borrow().right.clone();
+                let left_h = dfs(max_diff, left);
+                let right_h = dfs(max_diff, right);
+                *max_diff = std::cmp::max(*max_diff, i32::abs(right_h - left_h));
+                return 1 + std::cmp::max(left_h, right_h);
             }
-
-            let left_h = dfs(max_diff, root.clone().unwrap().borrow().left.clone());
-            let right_h = dfs(max_diff, root.unwrap().borrow().right.clone());
-
-            *max_diff = std::cmp::max(*max_diff, i32::abs(right_h - left_h));
-
-            // return the height for this Node
-            1 + std::cmp::max(left_h, right_h)
+            -1
         }
 
         dfs(&mut max_diff, root);
 
         max_diff < 2
-
     }
 }
