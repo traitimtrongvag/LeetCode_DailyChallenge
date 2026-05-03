@@ -1,9 +1,5 @@
-// Algorithm overview:
-// Convert the array into a list for easy merging operations.
-// Repeatedly merge the adjacent pair with the smallest sum.
-// After each merge, check if the list becomes non-decreasing.
-// Count how many merges are needed until the list is sorted.
-
+// O(n^3): sorted() O(n) * find-min O(n) * ArrayList.remove O(n).
+// Acceptable here because n <= 50. For n up to 10^5, see problem 3510 (linked list + min-heap).
 class Solution {
     public int minimumPairRemoval(int[] nums) {
         // Convert input array to a list for dynamic resizing.
