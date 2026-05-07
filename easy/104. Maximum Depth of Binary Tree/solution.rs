@@ -1,5 +1,12 @@
-use std::rc::Rc;
+/*
+Time: O(n)
+Space: O(h)
+
+Idea: depth = 1 + max(left depth, right depth)
+*/
+
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
