@@ -1,0 +1,206 @@
+name: Weekly Statistics
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: |
+          cat > main.py << 'EOF'
+          import os
+          import re
+          import subprocess
+          from collections import defaultdict
+          from typing import Dict, Tuple
+
+          TOPIC_PATTERN = re.compile(r"\*\*Topics:\*\*\s*(.*)", re.IGNORECASE)
+
+
+          def scan_topics() -> Tuple[int, Dict[str, int]]:
+              topic_count = defaultdict(int)
+              total_problems = 0
+
+              for root, dirs, files in os.walk("."):
+                  dirs[:] = [d for d in dirs if not d.startswith('.')]
+
+                  if "README.md" in files:
+                      path = os.path.join(root, "README.md")
+
+                      if path == "./README.md" or path == "README.md":
+                          continue
+
+                      try:
+                          with open(path, "r", encoding="utf-8") as f:
+                              content = f.read()
+                              match = TOPIC_PATTERN.search(content)
+
+                              if match:
+                                  topics = match.group(1)
+
+                                  for topic in map(str.strip, topics.split(",")):
+                                      if topic:
+                                          topic_count[topic] += 1
+
+                                  total_problems += 1
+
+                      except Exception as e:
+                          print(f"Error reading {path}: {e}")
+
+              return total_problems, topic_count
+
+
+          def generate_bar(count: int, max_count: int, bar_length: int = 25) -> str:
+              if max_count == 0:
+                  return "-" * bar_length
+
+              filled = int((count / max_count) * bar_length)
+              empty = bar_length - filled
+
+              return "#" * filled + "-" * empty
+
+
+          def generate_chart(total: int, topics: Dict[str, int]) -> str:
+              if not topics:
+                  return "No topics found"
+
+              sorted_topics = sorted(topics.items(), key=lambda x: x[1], reverse=True)
+              max_count = sorted_topics[0][1]
+              max_name_len = max(len(topic) for topic, _ in sorted_topics)
+
+              chart = []
+
+              for topic, count in sorted_topics:
+                  name = topic.ljust(max_name_len)
+                  count_str = f"{count} solution"
+                  bar = generate_bar(count, max_count)
+                  percent = (count / total) * 100
+
+                  line = f"{name}   {count_str:>14}   {bar}   {percent:05.2f}%"
+                  chart.append(line)
+
+              return "\n".join(chart)
+
+
+          def save_statistics_to_file(chart_text: str, total: int, topics_count: int) -> bool:
+              try:
+                  with open("statistics.txt", "w", encoding="utf-8") as f:
+                      f.write("=" * 60 + "\n\n")
+                      f.write(chart_text + "\n\n")
+                      f.write(f"Total solutions: {total}\n")
+                      f.write(f"Unique topics: {topics_count}\n")
+                      f.write("=" * 60 + "\n")
+
+                  print("Saved statistics to statistics.txt")
+                  return True
+
+              except Exception as e:
+                  print(f"Error saving to statistics.txt: {e}")
+                  return False
+
+
+          def git_commit_and_push(total: int, topics_count: int) -> bool:
+              print("\nCommitting and pushing changes")
+
+              success, output = run_git_command(["git", "add", "statistics.txt"])
+
+              if not success:
+                  print(f"Git add failed: {output}")
+                  return False
+
+              print("Staged statistics.txt")
+
+              success, output = run_git_command(["git", "diff", "--cached", "--quiet"])
+
+              if success:
+                  print("No changes to commit")
+                  return True
+
+              commit_msg = f"docs: update statistics ({total} solution, {topics_count} topics)"
+
+              success, output = run_git_command(["git", "commit", "-m", commit_msg])
+
+              if not success:
+                  print(f"Git commit failed: {output}")
+                  return False
+
+              print(f"Committed: {commit_msg}")
+
+              success, output = run_git_command(["git", "push", "origin", "HEAD:main"])
+
+              if not success:
+                  print(f"Git push failed: {output}")
+                  return False
+
+              print("Pushed to main")
+
+              return True
+
+
+          def run_git_command(command: list) -> Tuple[bool, str]:
+              try:
+                  result = subprocess.run(
+                      command,
+                      capture_output=True,
+                      text=True,
+                      check=True
+                  )
+
+                  return True, result.stdout.strip()
+
+              except subprocess.CalledProcessError as e:
+                  return False, e.stderr.strip()
+
+              except Exception as e:
+                  return False, str(e)
+
+
+          def main():
+              print("Scanning all README.md files")
+
+              total, topic_count = scan_topics()
+
+              if total == 0:
+                  print("No problems found")
+                  return
+
+              print(f"Found {total} problems with {len(topic_count)} topics")
+
+              chart = generate_chart(total, topic_count)
+
+              file_saved = save_statistics_to_file(
+                  chart,
+                  total,
+                  len(topic_count)
+              )
+
+              print(f"\n{chart}")
+              print(f"\nStatistics: {total} solution, {len(topic_count)} topics")
+
+              if file_saved:
+                  git_commit_and_push(total, len(topic_count))
+
+
+          if __name__ == "__main__":
+              main()
+          EOF
+
+      - run: python main.py
+
+      - run: |
+          git config pull.rebase false
+          git config user.name "statistics-bot[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
