@@ -14,6 +14,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -28,7 +30,6 @@ jobs:
           from typing import Dict, Tuple
 
           TOPIC_PATTERN = re.compile(r"\*\*Topics:\*\*\s*(.*)", re.IGNORECASE)
-
 
           def scan_topics() -> Tuple[int, Dict[str, int]]:
               topic_count = defaultdict(int)
@@ -62,7 +63,6 @@ jobs:
 
               return total_problems, topic_count
 
-
           def generate_bar(count: int, max_count: int, bar_length: int = 25) -> str:
               if max_count == 0:
                   return "-" * bar_length
@@ -71,7 +71,6 @@ jobs:
               empty = bar_length - filled
 
               return "#" * filled + "-" * empty
-
 
           def generate_chart(total: int, topics: Dict[str, int]) -> str:
               if not topics:
@@ -94,7 +93,6 @@ jobs:
 
               return "\n".join(chart)
 
-
           def save_statistics_to_file(chart_text: str, total: int, topics_count: int) -> bool:
               try:
                   with open("statistics.txt", "w", encoding="utf-8") as f:
@@ -110,7 +108,6 @@ jobs:
               except Exception as e:
                   print(f"Error saving to statistics.txt: {e}")
                   return False
-
 
           def git_commit_and_push(total: int, topics_count: int) -> bool:
               print("\nCommitting and pushing changes")
@@ -149,7 +146,6 @@ jobs:
 
               return True
 
-
           def run_git_command(command: list) -> Tuple[bool, str]:
               try:
                   result = subprocess.run(
@@ -166,7 +162,6 @@ jobs:
 
               except Exception as e:
                   return False, str(e)
-
 
           def main():
               print("Scanning all README.md files")
@@ -193,7 +188,6 @@ jobs:
               if file_saved:
                   git_commit_and_push(total, len(topic_count))
 
-
           if __name__ == "__main__":
               main()
           EOF
@@ -204,3 +198,13 @@ jobs:
           git config pull.rebase false
           git config user.name "statistics-bot[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - run: |
+          git pull origin main --no-rebase || true
+          git add statistics.txt -f
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: update statistics [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit"
+          fi
