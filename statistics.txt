@@ -17,34 +17,34 @@ Bit Manipulation           23 solution   ##-----------------------   06.71%
 Tree                       20 solution   ##-----------------------   05.83%
 Breadth-First Search       19 solution   ##-----------------------   05.54%
 Heap (Priority Queue)      17 solution   #------------------------   04.96%
-Divide and Conquer         16 solution   #------------------------   04.66%
 Sliding Window             16 solution   #------------------------   04.66%
+Divide and Conquer         16 solution   #------------------------   04.66%
 Binary Tree                16 solution   #------------------------   04.66%
 Linked List                13 solution   #------------------------   03.79%
 Counting                   12 solution   #------------------------   03.50%
-Union-Find                 11 solution   #------------------------   03.21%
 Enumeration                11 solution   #------------------------   03.21%
+Union-Find                 11 solution   #------------------------   03.21%
 Stack                      11 solution   #------------------------   03.21%
-Graph Theory                9 solution   -------------------------   02.62%
 Segment Tree                9 solution   -------------------------   02.62%
+Graph Theory                9 solution   -------------------------   02.62%
 Geometry                    7 solution   -------------------------   02.04%
 Design                      6 solution   -------------------------   01.75%
-Shortest Path               5 solution   -------------------------   01.46%
 Recursion                   5 solution   -------------------------   01.46%
-Trie                        5 solution   -------------------------   01.46%
+Shortest Path               5 solution   -------------------------   01.46%
 Backtracking                5 solution   -------------------------   01.46%
+Trie                        5 solution   -------------------------   01.46%
 Ordered Set                 4 solution   -------------------------   01.17%
 Queue                       3 solution   -------------------------   00.87%
-Merge Sort                  3 solution   -------------------------   00.87%
-Counting Sort               3 solution   -------------------------   00.87%
-Binary Search Tree          3 solution   -------------------------   00.87%
 Number Theory               3 solution   -------------------------   00.87%
+Binary Search Tree          3 solution   -------------------------   00.87%
+Counting Sort               3 solution   -------------------------   00.87%
+Merge Sort                  3 solution   -------------------------   00.87%
 String Matching             3 solution   -------------------------   00.87%
 Monotonic Queue             2 solution   -------------------------   00.58%
 Doubly-Linked List          2 solution   -------------------------   00.58%
+Binary Indexed Tree         2 solution   -------------------------   00.58%
 Monotonic Stack             2 solution   -------------------------   00.58%
 Sweep Line                  2 solution   -------------------------   00.58%
-Binary Indexed Tree         2 solution   -------------------------   00.58%
 Hash Function               2 solution   -------------------------   00.58%
 Bucket Sort                 1 solution   -------------------------   00.29%
 Radix Sort                  1 solution   -------------------------   00.29%
@@ -52,11 +52,11 @@ Brainteaser                 1 solution   -------------------------   00.29%
 Combinatorics               1 solution   -------------------------   00.29%
 Topological Sort            1 solution   -------------------------   00.29%
 Minimum Spanning Tree       1 solution   -------------------------   00.29%
+Interactive                 1 solution   -------------------------   00.29%
 Database                    1 solution   -------------------------   00.29%
 Data Stream                 1 solution   -------------------------   00.29%
-Rolling Hash                1 solution   -------------------------   00.29%
 Memoization                 1 solution   -------------------------   00.29%
-Interactive                 1 solution   -------------------------   00.29%
+Rolling Hash                1 solution   -------------------------   00.29%
 
 Total solutions: 343
 Unique topics: 57
