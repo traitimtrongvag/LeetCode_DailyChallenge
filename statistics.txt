@@ -7,56 +7,56 @@ Sorting                    64 solution   ######-------------------   18.60%
 Math                       58 solution   ######-------------------   16.86%
 Dynamic Programming        50 solution   #####--------------------   14.53%
 Matrix                     44 solution   ####---------------------   12.79%
-Two Pointers               35 solution   ###----------------------   10.17%
 Binary Search              35 solution   ###----------------------   10.17%
-Prefix Sum                 33 solution   ###----------------------   09.59%
+Two Pointers               35 solution   ###----------------------   10.17%
 Greedy                     33 solution   ###----------------------   09.59%
+Prefix Sum                 33 solution   ###----------------------   09.59%
 Simulation                 28 solution   ##-----------------------   08.14%
 Depth-First Search         25 solution   ##-----------------------   07.27%
 Bit Manipulation           23 solution   ##-----------------------   06.69%
 Tree                       20 solution   ##-----------------------   05.81%
 Breadth-First Search       19 solution   ##-----------------------   05.52%
 Heap (Priority Queue)      17 solution   #------------------------   04.94%
-Sliding Window             16 solution   #------------------------   04.65%
 Divide and Conquer         16 solution   #------------------------   04.65%
+Sliding Window             16 solution   #------------------------   04.65%
 Binary Tree                16 solution   #------------------------   04.65%
 Linked List                13 solution   #------------------------   03.78%
 Counting                   12 solution   #------------------------   03.49%
 Enumeration                11 solution   #------------------------   03.20%
-Union-Find                 11 solution   #------------------------   03.20%
 Stack                      11 solution   #------------------------   03.20%
+Union-Find                 11 solution   #------------------------   03.20%
 Segment Tree                9 solution   -------------------------   02.62%
 Graph Theory                9 solution   -------------------------   02.62%
 Geometry                    7 solution   -------------------------   02.03%
 Design                      6 solution   -------------------------   01.74%
-Recursion                   5 solution   -------------------------   01.45%
+Trie                        5 solution   -------------------------   01.45%
 Shortest Path               5 solution   -------------------------   01.45%
 Backtracking                5 solution   -------------------------   01.45%
-Trie                        5 solution   -------------------------   01.45%
+Recursion                   5 solution   -------------------------   01.45%
 Ordered Set                 4 solution   -------------------------   01.16%
-Queue                       3 solution   -------------------------   00.87%
+String Matching             3 solution   -------------------------   00.87%
+Merge Sort                  3 solution   -------------------------   00.87%
 Number Theory               3 solution   -------------------------   00.87%
 Binary Search Tree          3 solution   -------------------------   00.87%
+Queue                       3 solution   -------------------------   00.87%
 Counting Sort               3 solution   -------------------------   00.87%
-Merge Sort                  3 solution   -------------------------   00.87%
-String Matching             3 solution   -------------------------   00.87%
-Monotonic Queue             2 solution   -------------------------   00.58%
-Doubly-Linked List          2 solution   -------------------------   00.58%
+Sweep Line                  2 solution   -------------------------   00.58%
 Binary Indexed Tree         2 solution   -------------------------   00.58%
 Monotonic Stack             2 solution   -------------------------   00.58%
-Sweep Line                  2 solution   -------------------------   00.58%
+Doubly-Linked List          2 solution   -------------------------   00.58%
+Monotonic Queue             2 solution   -------------------------   00.58%
 Hash Function               2 solution   -------------------------   00.58%
+Topological Sort            1 solution   -------------------------   00.29%
+Minimum Spanning Tree       1 solution   -------------------------   00.29%
 Bucket Sort                 1 solution   -------------------------   00.29%
 Radix Sort                  1 solution   -------------------------   00.29%
 Brainteaser                 1 solution   -------------------------   00.29%
 Combinatorics               1 solution   -------------------------   00.29%
-Topological Sort            1 solution   -------------------------   00.29%
-Minimum Spanning Tree       1 solution   -------------------------   00.29%
-Interactive                 1 solution   -------------------------   00.29%
+Rolling Hash                1 solution   -------------------------   00.29%
 Database                    1 solution   -------------------------   00.29%
+Interactive                 1 solution   -------------------------   00.29%
 Data Stream                 1 solution   -------------------------   00.29%
 Memoization                 1 solution   -------------------------   00.29%
-Rolling Hash                1 solution   -------------------------   00.29%
 
 Total solutions: 344
 Unique topics: 57
